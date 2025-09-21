@@ -1,0 +1,58 @@
+ Hand Gesture Controlled Smart Mattress
+📌 Project Overview
+
+This project aims to develop a smart mattress system that allows patients, especially bedridden or disabled individuals, to adjust the bed position using hand gestures. The system uses a MEMS accelerometer sensor to detect hand movements, an Arduino to process signals, and a DC motor with driver to adjust the bed position. An LCD display provides feedback to the user.
+
+The project eliminates the need for physical switches or remotes, making patient care more intuitive and accessible.
+
+⚙️ Components Used
+
+Arduino (UNO / Mega)
+
+LCD Display (16x2)
+
+MEMS Accelerometer Sensor (ADXL335/ADXL345)
+
+Motor Driver (L293D / L298N)
+
+DC Motor
+
+Power Supply Module
+
+12V Adapter
+
+Connectors & Wires
+
+🚀 How It Works
+
+Patient makes a hand gesture (up, down, left, right).
+
+MEMS sensor detects orientation and sends data to Arduino.
+
+Arduino processes the signal and sends control to the motor driver.
+
+Motor driver activates the DC motor to adjust the mattress position.
+
+LCD shows real-time mattress status (e.g., “Head Up”, “Leg Down”).
+
+📖 Research References
+
+Athatva Vardhe, Jotiba Rankhamb, and Prof. Sayali Ghodake, “Optimizing Real-Time Traffic Management Using IoT, Machine Learning, Edge Computing in Smart Cities,” International Journal of Research Publication and Reviews, vol. 6, pp. 5008-5013, Apr. 2025. Link
+
+Muskan Raj, “AI-Powered Traffic Control in IoT-Based Smart Cities: Revolutionizing Urban Mobility,” Sup. Chain Oper. Decis. Mak, vol.1, no.1, pp. 13–19, Nov. 2024. Link
+
+S. Dikshit, A. Atiq, and V. Dwivedi, “The Use of Artificial Intelligence to Optimize the Routing of Vehicles and Reduce Traffic Congestion in Urban Areas,” EAI European Alliance for Innovation, vol. 10, Dec. 2023. Link
+
+Dr. Naveen B, H M Aishwarya, Dr. Manu Y M, “Hand Gestures Mechanism for Controlling and Supervising the Smart Mattress,” ICRASET, 2024. Link
+
+
+
+✅ Features
+
+Gesture-based bed control (no switches needed).
+
+Real-time LCD feedback.
+
+Low-cost and easy to implement.
+
+Patient-friendly design.
